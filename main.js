@@ -27,9 +27,9 @@ qtdNotas = qtdNotas + 1;
 media = total / qtdNotas
 
 if (media >= 7) {
-    aprovado = "Sim =)"
+    aprovado = "Sim :)"
 } else {
-    aprovado = "Não =("
+    aprovado = "Não :("
 }
 
 $media.textContent = media.toFixed(1);
